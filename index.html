@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
- <head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verkefni 1</title>
+   <!--Google Fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Indie+Flower&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
- </head>
- <body>
-    <h1>Hello World!</h1>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS065kv-xwROu_GwYg_2hFXPN6qia_b8nKw4g4Aw5O7kx8xx2OTMd7A7VLr&s=1024"
-alt="Picture of a Birthday party"/>
+  </head>
 
-</body>
+  <!--For Background Image-->
+<style>
+  body {
+    background-image: url('https://images.pexels.com/photos/9409792/pexels-photo-9409792.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+</style>
+ 
+<!--Header Information-->
+<header>
+    <div class="header-bar">
+        <img src="images/CafeLogo.png" alt="Cafe 4 U logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="/" title="Home">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank" title="About Us">About Us</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank" title="Services">Services</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank" title="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div class="headerinfo">
+      <p>Welcome to our Cafe!</p>
+    </div>
+    <h1>Menu</h1>   
+</header>
+
+ <main>
+<!--Grid menu layout-->
+    <div class="grid-container">
+        <section>
+            <h2>Coffee Specials</h2>
+            <hr>
+            <div class="menu-item"><span>Espresso</span><span>550 kr</span></div>
+            <div class="menu-item"><span>Latte</span><span>400 kr</span></div>
+            <div class="menu-item"><span>Cold Brew</span><span>450 kr</span></div>
+            <div class="menu-item"><span>Cappucino</span><span>420 kr</span></div>
+            <img src="images/coffeecup.png" alt="Coffee Cup drawing" class="menu-img">
+        </section>
+
+        <section>
+            <h2>Cold Drinks</h2>
+            <hr>
+            <div class="menu-item"><span>Milkshake</span><span>450 kr</span></div>
+            <div class="menu-item"><span>Iced Tea</span><span>300 kr</span></div>
+            <div class="menu-item"><span>Lemonade</span><span>350 kr</span></div>
+            <div class="menu-item"><span>Smoothie</span><span>500 kr</span></div>
+            <img src="images/Milkshake.png" alt="Milkshake drawing" class="menu-img">
+        </section>
+    </div>
+ </main>
+
+<!--Footer Information-->
+<footer>
+    <p class="footer-title">Café 4 U</p>
+
+    <ul class="footer-info">
+      <li>Laugavegur 12, 101 Reykjavík</li>
+      <li>Phone: +354 555 1234</li>
+      <li>Email: <a href="mailto:hello@cafe4u.is">hello@cafe4u.is</a></li>
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+    </ul>
+</footer>
 </html>

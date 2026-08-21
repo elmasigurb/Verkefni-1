@@ -1,1 +1,99 @@
-h1 {color:pink;}
+h1 {color:rgb(245, 245, 237); text-align:center; font-family: 'Alice';}
+body {background-color:#f5dfe5;}
+p {font-family: 'Indie Flower'; color: rgb(245, 245, 237)}
+h2 {font-family: 'Alice'; color: #795220;}
+.menu {background-color:rgb(245, 245, 237); border: 18px solid rgb(245, 245, 237);}
+.grid-container {
+  display: flex;
+  gap: 10px;
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 245, 237);
+  padding: 10px 30px;
+}
+.logo {width: 4%; height: auto; margin-top: 10px; margin-left: 10px;}
+.grid-container > section {
+  flex: 1;
+  padding: 15px;
+  background-color: rgb(245, 245, 237);
+}
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Indie Flower';
+  color: #795220;
+  margin-bottom: 10px;
+}
+.menu-img {
+  width: 20%;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.headerinfo {color:rgb(245, 245, 237); text-align:center; font-size: 15px;}
+footer {
+  margin-top: 150px;
+  text-align: center;
+  color: rgb(245, 245, 237);
+  padding: 20px 0;
+  font-family: 'Indie Flower';
+}
+
+.footer-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.footer-info {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: rgb(245, 245, 237);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: #795220;
+}
+nav {
+  font-family: 'Indie Flower';
+  color: #795220;
+  background-color: rgb(245, 245, 237);
+  width: 100%;
+  padding: 10px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+nav li {
+  margin: 0;
+}
+nav a {
+  color: #795220;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #b5651d;
+  text-decoration: underline;
+}
